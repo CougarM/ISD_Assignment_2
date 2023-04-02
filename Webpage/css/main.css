@@ -1,0 +1,142 @@
+body {
+  background-image: url("../img/va.jpg");
+  background-size: 2000px 1500px;
+  background-color: #121212;
+  background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
+  color: floralwhite;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: floralwhite;
+  text-align: left;
+  margin-top: 0;
+}
+
+header {
+  margin: 0px;
+  padding: 20px;
+  overflow: auto;
+}
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  background-color: #121212;
+  color: floralwhite;
+  box-sizing: border-box;
+  border: 1px solid floralwhite;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid floralwhite;
+}
+
+.names {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.gender {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.address {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.study {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.ccode {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.submit {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 25px;
+  width: 100%;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .form {
+  padding-top: 102px;
+}
+
+.index {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: floralwhite;
+}
+
+.button {
+  text-align: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: floralwhite;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: floralwhite;
+}
+
+.button:active {
+  background-color: #121212;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.UoD {
+  display: block;
+  text-align: center;
+  padding: 250px;
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <title>Student Personal Profile</title>
+</head>
+
+<body>
+<!-- Add your site or application content here -->
+<div class="header" id="myHeader">
+  <header style="position: relative; margin-top: 15px;">
+    <h1><img src="img/UoD_White.png" alt="Logo"
+             ç
+             style="float:right; width:250px;height:128px;"/>
+      Student Personal Profile</h1>
+  </header>
+</div>
+
+<div class="form">
+  <form>
+    <div class="names">
+      <p>Please enter your First, middle (if applicable) and last names:</p>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="mname">Middle name(s):</label><br>
+      <input type="text" id="mname" name="mname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+    </div>
+
+    <div class="gender">
+      <p>Please indicate your gender:</p>
+      <input type="radio" id="Male" name="gender" value="Male">
+      <label for="Male">Male</label><br>
+      <input type="radio" id="Female" name="gender" value="Female">
+      <label for="Female">Female</label><br>
+      <input type="radio" id="Other" name="gender" value="Other">
+      <label for="Other">Other</label>
+    </div>
+
+    <div class="address">
+      <p>Please enter your address:</p>
+      <label for="house">House name/number:</label><br>
+      <input type="text" id="house" name="house"><br>
+      <label for="street">Street name:</label><br>
+      <input type="text" id="street" name="street"><br>
+      <label for="city">City:</label><br>
+      <input type="text" id="city" name="city"><br>
+      <label for="postcode">Postcode:</label><br>
+      <input type="text" id="postcode" name="postcode">
+    </div>
+
+    <div class="contact">
+      <p>Please enter your contact details:</p>
+      <label for="phone">Phone number:</label><br>
+      <input type="text" id="phone" name="phone"><br>
+      <label for="email">Email address:</label><br>
+      <input type="text" id="email" name="email"><br>
+    </div>
+
+    <div class="DoB">
+      <p>Please enter your date of birth:</p>
+      <label for="DoB">Date of Birth:</label><br>
+      <input type="text" id="DoB" name="DoB"><br>
+    </div>
+
+    <div class="study">
+      <p>Select mode of study:</p>
+      <input type="radio" id="UG" name="UG" value="UG">
+      <label for="UG"> Undergraduate</label><br>
+      <input type="radio" id="PG" name="PG" value="PG">
+      <label for="PG"> Postgraduate</label><br>
+      <input type="radio" id="GA" name="GA" value="GA">
+      <label for="GA"> Graduate Apprenticeship </label>
+    </div>
+
+    <div class="ccode">
+      <p>Input course code:</p>
+      <label for="ccode">Course Code:</label><br>
+      <input type="text" id="ccode" name="ccode"><br>
+    </div>
+
+    <div class="submit">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+<script src="js/sticky.js"></script>
+</body>
+
+</html>
